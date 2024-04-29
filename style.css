@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --color1:black;
+    --color2:white;
+    --color3: #A2602E;
+    --color4: #D19D6D;
+    --color5: #DC8B32;
+  
+    --font-principal:verdana;
+    --fonte-padrao:arial;
+    --fonte-paragrafo:tahoma;
+  }
+  body{
+    background: var(--color1) url('./images/lua.png') no-repeat left center fixed;
+    background-size: cover;
+  }  
+header{
+    height: 50%;
+    padding: 25px 0px 0px 0px ;
+}
+header > h1{
+    font: normal bold 3em 'verdana';
+    text-align: center;
+    color: var(--color2);
+    margin: auto;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 5px;
+}
+main > div{
+    flex-basis: 200;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: rgba(42, 147, 165, 0);
+    margin: 5px;
+}
+main > #box_2{
+    display: flex;
+    flex-wrap: wrap;
+}
+main  > #box_2 > #box_2_1{
+    flex-basis: 200;
+    flex-grow: 1;
+    padding: 35px;
+    background-image: linear-gradient(to right, var(--color2) , rgba(255, 0, 0, 0));
+    margin: 5px;
+    border-radius: 25px;
+}
+main  > #box_2 > #box_2_1 > div {
+    display: flex;
+    margin: 45px 5px ;
+    width: 100%;
+}
+main  > #box_2 > #box_2_1 > div > h1 {
+    font: normal bold 2.5em 'verdana';
+    text-align: center;
+    color: var(--color3);
+    margin: auto;
+}
+main  > #box_2 > #box_2_1 > div > a {
+    font: normal bold 1.5rem 'verdana';
+  text-align: center;
+  width: 90%;
+  padding: 10px;
+  background-color: var(--color5);
+  margin: auto;
+  color: var(--color2);
+  text-decoration: none;
+  border-radius: 10px;
+  transition-duration: 0.5s;
+  box-shadow: 3px 3px 15px var(--color3);
+}
+main  > #box_2 > #box_2_1 > div > a:hover{
+  background-color: var(--color3);
+  padding: 13px;
+  font: normal bold 1.6rem 'verdana';
+  box-shadow: 3px 3px 15px var(--color5);
+}
+main  > #box_2 > #box_2_1 > div > a > img{
+    margin: 0px 0px 0px 10px ;
+   height:25px;
+   width:25px 
+}
+main  > #box_2 > #box_2_2{
+    flex-basis: 200;
+    flex-grow: 1;
+    padding: 35px;
+    background-image: linear-gradient(to left, var(--color2) , rgba(255, 0, 0, 0));
+    margin: 5px;
+    border-radius: 25px;
+}
+main  > #box_2 > #box_2_2 > h1{
+    font: normal bold 2.5em 'verdana';
+    text-align: center;
+    color: var(--color3);
+    margin: auto;
+}
+main  > #box_2 > #box_2_2 > p{
+    font: normal bold 0.7em 'verdana';
+    text-align: center;
+    color: var(--color3);
+    margin: auto;
+}
+
+main  > #box_2 > #box_2_2 > div > form {
+  padding: 15px;
+  height: 100%;
+  margin: 20px 5px ;
+}
+main  > #box_2 > #box_2_2 > div > form > label {
+    font: normal bold 1.5rem 'verdana';
+    text-align: center;
+    color: var(--color3);
+    margin: 10px 5px;
+}
+main  > #box_2 > #box_2_2 > div > form > input {
+  font: normal bold 1rem 'verdana';
+  text-align: left;
+  color: var(--color3);
+  margin: 10px 5px;
+  padding: 10px;
+  border: solid 2px var(--color3);
+  box-shadow: 2px 2px 10px var(--color3);
+  border-radius: 10px;
+  width: 90%;
+}
+main  > #box_2 > #box_2_2 > div > form > textarea {
+    font: normal bold 0.8rem 'verdana';
+    text-align: left;
+    color: var(--color3);
+    margin:  5px;
+    border: solid 2px var(--color3);
+    box-shadow: 2px 2px 10px var(--color3);
+    border-radius: 10px;
+    width: 95%;
+    height: 70%;
+    padding: 5px;
+}
+main  > #box_2 > #box_2_2 > div > form > #submit {
+    font: normal bold 1.5rem 'verdana';
+    text-align: center;
+    color: var(--color2);
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 10px var(--color3);
+    border-radius: 10px;
+    width: 95%;
+    background-color: var(--color5);
+    transition-duration: 1s;
+}
+main  > #box_2 > #box_2_2 > div > form > #submit:hover {
+    font: normal bold 1.6rem 'verdana';
+    color: var(--color2);
+    padding: 15px;
+    box-shadow: 2px 2px 10px var(--color3);
+    border-radius: 13px;
+    background-color: var(--color3);
+    border: solid 3px var(--color5);
+    
+}
